@@ -38,8 +38,8 @@ The code for running KANotype demo is in [run_kanotype.py](https://github.com/Xi
 * Or use command line to download:
   ```
   mkdir -p data
-  wget https://zenodo.org/record/16892910/files/hPancreas_train_adata.h5ad -P /data
-  wget https://zenodo.org/record/16892910/files/hPancreas_test_adata.h5ad -P /data
+  wget https://zenodo.org/record/16892910/files/hPancreas_train_adata.h5ad -P ./data
+  wget https://zenodo.org/record/16892910/files/hPancreas_test_adata.h5ad -P ./data
   ```
 
 **Input:**
