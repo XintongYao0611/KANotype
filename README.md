@@ -31,7 +31,7 @@ conda install --file requirements.txt
 
 ## Usage
 
-The code for running KANotype demo is in [run_kanotype.py](https://github.com/xycLab/KANotype/blob/master/run_kanotype.py)
+The code for running KANotype demo is in [run_kanotype.py](https://github.com/XintongYao0611/KANotype/blob/master/run_kanotype.py)
 
 **Download demo dataset:**
 * The demo dataset can be acquired from Zendo [10.5281/zenodo.16892910](https://doi.org/10.5281/zenodo.16892910).
