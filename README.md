@@ -2,9 +2,11 @@
 
 ## Contents
 
-[Overview]: ##Overview
-[Installation]: ##Installation
-[Usage]: ##Usage
+[Overview](##Overview)
+
+[Installation](##Installation)
+
+[Usage](##Usage)
 
 
 
@@ -30,6 +32,15 @@ conda install --file requirements.txt
 ## Usage
 
 The code for running KANotype demo is in [run_kanotype.py](https://github.com/xycLab/KANotype/blob/master/run_kanotype.py)
+
+**Download demo dataset:**
+* The demo dataset can be acquired from Zendo [10.5281/zenodo.16892910](https://doi.org/10.5281/zenodo.16892910).
+* Or use command line to download:
+  ```
+  mkdir -p data
+  wget https://zenodo.org/record/16892910/files/hPancreas_train_adata.h5ad -P /data
+  wget https://zenodo.org/record/16892910/files/hPancreas_test_adata.h5ad -P /data
+  ```
 
 **Input:**
 

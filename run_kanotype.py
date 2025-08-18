@@ -7,8 +7,8 @@ import logging
 start_time = time.time()
 
 conf = config.ConfObj(
-    ref_ad='./data/demo_human_pancreas/HumanPancreas_train.h5ad',
-    query_ad='./data/demo_human_pancreas/HumanPancreas_test.h5ad',    
+    ref_ad='./data/hPancreas_train_adata.h5ad',
+    query_ad='./data/hPancreas_test_adata.h5ad',    
     gmt_file='GO_bp.gmt',
     label_name='Celltype2',
     lr=1e-3,
